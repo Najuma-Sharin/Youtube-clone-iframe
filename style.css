@@ -1,0 +1,163 @@
+*{
+    margin: 10px;
+padding: 0;
+font-family: sans-serif, 'poppins';
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img{
+    cursor:pointer;
+    
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding:10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-right img{
+width: 20px;
+margin-right: 25;
+}
+
+.nav-right .upload{
+    width: 30px;
+    margin-right: 25px; 
+    }
+
+    .nav-right .more{
+        width: 20px;
+        margin-right: 25px; 
+        }
+        .nav-right .noti{
+            width: 20px;
+            margin-right: 25px; 
+            }
+.nav-right .user-icon{
+    width: 22px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.nav-left .menu-icon{
+   width: 25px;
+   margin-right: 25px; 
+}
+
+.nav-left .logo{
+    width: 40px;
+    margin-right: 20px; 
+ }
+
+
+
+ .nav-middle .mic-icon{
+    width: 25px;
+    margin-right: 25px; 
+ }
+
+ .nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+ }
+
+ .nav-middle .search-box input{
+    width: 470px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+ }
+
+
+ .nav-middle .search-box img{
+    width: 15px;
+ }
+
+ .playvideo h3{
+font-weight: 600;
+font-size: 26px;
+ }
+
+ .videoinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+ }
+
+ .playvideo .videoinfo a img{
+  width: 70px;
+  margin-right: 8px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+ }
+ .playvideo .videoinfo a{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+ }
+
+ .publisher{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+ }
+
+ .publisher div{
+     flex: 1;
+     line-height: 18px;
+     
+
+ }
+ .publisher img{
+    height: 90px;
+    width: 90px;
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-right: 35px;
+    border-radius: 40%;
+ }
+ .publisher div p{
+    color: red;
+    font-weight: 600px;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 18px;
+ }
+
+ .publisher div span{
+    font-size: 15px;
+    color: black;
+     }
+
+ .viddescription{    
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 25px;
+    margin: 15px 0;
+     }
+
+.viddescription p{
+    font-size: 20px;
+}
